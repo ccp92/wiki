@@ -4,17 +4,11 @@
   link: '/'
 - label: 'Getting started'
   link: '/getting-started'
-- label: Usage
+- label: Python
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
+    - label: 'Django'
+      link: '/python/django'
 - label: More
   items:
-    - label: FAQ
-      link: /faq
     - label: 'Github'
-      link: https://github.com/jpedroschmitz/rocketdocs
+      link: https://github.com/ccp92/wiki

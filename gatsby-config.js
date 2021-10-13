@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.app`,
-    siteAuthor: `@jpedroschmitz`,
+    siteTitle: `Chris Parsons Wiki`,
+    defaultTitle: `Chris Parsons Wiki`,
+    siteTitleShort: `Chris Parsons Wiki`,
+    siteDescription: `Wiki brain-dump for Chris Parsons`,
+    siteUrl: `https://wiki23290.gatsbyjs.io/`,
+    siteAuthor: `@ccp92`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
@@ -18,15 +18,14 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/jpedroschmitz/rocketdocs`,
-        baseDir: `examples/gatsby-theme-docs`,
+        repositoryUrl: `https://github.com/ccp92/wiki`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocket Docs`,
-        short_name: `Rocket Docs`,
+        name: `Chris Parsons Wiki`,
+        short_name: `Chris Parsons Wiki`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -44,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://wiki23290.gatsbyjs.io`,
       },
     },
     `gatsby-plugin-offline`,
