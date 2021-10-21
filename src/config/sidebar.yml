@@ -8,6 +8,8 @@
   items:
     - label: 'Django'
       link: '/python/django'
+    - label: 'requirements'
+      link: 'python/requirements'
 - label: More
   items:
     - label: 'Github'

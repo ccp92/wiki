@@ -1,0 +1,21 @@
+---
+title: Requirements File
+description: Information on requirements within python projects
+---
+
+## `requirements.txt`
+Similarly to a package file in a javascript project or a gemfile in a ruby project, python has a requirements.txt file which stores the dependencies of a project.
+However, an issue with using the `requirements.txt` file is that it only notes the top level dependencies, not the dependencies of the dependencies.
+Because of this, running `pip install -r requirements.txt` may result in different sets of packages being installed.
+
+Typically the solution to this is to run `pip freeze > requirements.txt` which resolves the issues with higher defree dependencies.
+However, this introduces a new issue; if you need to delete a dependencies, there is no easy way to know that you have removed all of the dependencies related to that package.
+
+## `pip-compile`
+pip-compile is a tool that is available as part of pip-tools.
+Instead of writing a `requirements.txt` file, a `requirements.in` file is written instead, containing the direct dependencies of the project.
+When `pip-compile` is run, it generates a `requirements.txt` file from the `requirements.in` file, which contains all of the dependencies (including those at higher degrees of seperation) and locks the versions.
+Now, when removing a top level dependency from your `requirements.in` file, re-running `pip-compile` will remove the dependency and all of the higher degree dependencies from the `requirements.txt` for you.
+
+## Sources
+* [Why requirements.txt isn't enough](https://modelpredict.com/wht-requirements-txt-is-not-enough)
