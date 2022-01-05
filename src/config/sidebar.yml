@@ -6,10 +6,12 @@
   link: '/getting-started'
 - label: Python
   items:
-    - label: 'Django'
-      link: '/python/django'
     - label: 'requirements'
       link: 'python/requirements'
+- label: Testing
+  items:
+    - label: 'E2E vs Integration'
+      link: '/Testing/e2e-vs-integration'
 - label: More
   items:
     - label: 'Github'
