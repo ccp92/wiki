@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `Chris Parsons Wiki`,
     siteTitleShort: `Chris Parsons Wiki`,
     siteDescription: `Wiki brain-dump for Chris Parsons`,
-    siteUrl: `https://wiki23290.gatsbyjs.io/`,
+    siteUrl: `https://wikichris.gatsbyjs.io/`,
     siteAuthor: `@ccp92`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://wiki23290.gatsbyjs.io`,
+        siteUrl: `https://wikichris.gatsbyjs.io/`,
       },
     },
     `gatsby-plugin-offline`,
