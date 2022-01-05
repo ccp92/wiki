@@ -2,8 +2,6 @@
 
 - label: 'Introduction'
   link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
 - label: Python
   items:
     - label: 'requirements'
